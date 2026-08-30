@@ -1,0 +1,37 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# GNS3 / VM exports
+*.ova
+*.qcow2
+*.vmdk
+*.img
+*.iso
+*.vhd
+*.vhdx
+*.tar
+*.gz
+*.zip
+*.rar
+*.7z
+
+# Project output / large artifacts
+**/project-files/images/
+**/project-files/vpcs/
+**/images/
+**/*.gns3
+**/*.gns3project
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
