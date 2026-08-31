@@ -1,37 +1,33 @@
-﻿# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environments
-.venv/
-venv/
-env/
-ENV/
-
-# GNS3 / VM exports
-*.ova
+# Large GNS3 / Virtual Machine files
 *.qcow2
 *.vmdk
+*.vdi
 *.img
 *.iso
-*.vhd
-*.vhdx
-*.tar
-*.gz
-*.zip
-*.rar
-*.7z
 
-# Project output / large artifacts
-**/project-files/images/
-**/project-files/vpcs/
-**/images/
-**/*.gns3
-**/*.gns3project
+# Cisco IOS images
+*.bin
 
-# OS/editor junk
-.DS_Store
+# Packet captures
+*.pcap
+*.pcapng
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Credentials / secrets
+.env
+*.key
+*.pem
+
+# Operating system files
 Thumbs.db
-.vscode/
+.DS_Store
